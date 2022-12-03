@@ -82,3 +82,15 @@ public abstract class Pallet {
         return outgoing;
     }
 }
+
+public abstract class Kanister{
+
+}
+
+public abstract class FeststoffKarton{
+
+}
+
+public abstract class stueckgueterKarton{
+    
+}
