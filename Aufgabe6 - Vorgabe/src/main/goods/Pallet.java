@@ -83,14 +83,17 @@ public abstract class Pallet {
     }
 }
 
-public abstract class Kanister{
+public  class Kanister{
+    public Kanister (boolean cooling, int duration) {
+        super("Kanister", 90, 90, 90, cooling, duration )
+    }
+}
+
+public  class FeststoffKarton{
 
 }
 
-public abstract class FeststoffKarton{
-
-}
-
-public abstract class stueckgueterKarton{
+public  class stueckgueterKarton{
     
 }
+
